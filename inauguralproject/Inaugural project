@@ -1,0 +1,97 @@
+Inaugural Project 
+
+
+%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+plt.style.use('seaborn')
+import pandas as pd
+import ipywidgets as widgets
+from mpl_toolkits.mplot3d import Axes3D
+plt.style.use('seaborn-whitegrid')
+from matplotlib import cm
+
+#Opgave 1
+
+m = 1
+v = 10
+e = 0.3
+t0 = 0.4
+t1 = 0.1
+k = 0.5
+w = [0.5 : 1.5]
+
+def utility(c,v, l, e):
+    u = np.max(log(c) - v*((l**(1+1/e))/1+1/e))
+    return u
+
+def l(c, v, l, e):
+    l = np.max( log(c) - v*((l**(1+1/e))/1+1/e))
+    return l
+
+def x(m, w, l, t0, t1, k):
+    max_value = np.max(wl-k,0)
+    x = m+ w*l - (t0*w*l+t1*max_value) 
+    cs = x
+    return x
+
+#We find best choice
+
+def find_best_choice(w, I, v, t0, t1, k, m, e)
+
+#Make tuples
+
+shape_tuple(I)
+c_values = np.empty(shapetuple)
+l_values = np.empty(shapetuple)
+u_values = np.empty(shapetuple)
+
+# Make a guess
+l_best = 1
+c_best = 1
+u_bet = u(c_best, l_best, v=v, e=e)
+    
+# We make a loop to find the best solution
+
+for i in range(I)
+    l_values[i]=æ = i/(R-1)
+
+    c_values[i] = x
+
+    u_values[i] = u_function(c,l, v=v, e=e)
+
+    if u_value[i] >= u_best
+        l_best = l_values[i]
+        c_best = c_values[i]
+        u_best = u_values[i]
+
+return c_best, l_best , u_best
+
+#Opgave 2
+plt.style.use("seaborn")
+fig=plt.figure(figsize=(10,4))
+ax_left = fig.add_subplot(1,2,1)
+
+fig = plt.figure()
+ax = fig.add_subplot(1,1,1,projections='3d')
+ax.plot_surface(cs,ls, cmap=cm.jet)
+ax.set_xlabel(')
+
+x=range(0.5,1.5)
+for cs in x 
+for ls in x
+
+#Opgave 3 
+
+N = 10000
+np.random.seed(200)
+w = numpy.random.uniform(low = 0.5, high = 1.5, size = None)
+
+# allocate numpy arrays
+c = np.empty(N)
+l = np.empty(N)
+u = np.empty(N)
+
+def tax_rev(l, w, t0, t1, k):
+    return t0*w*l + t1 * np.maximum(w*l - k, 0)
+
