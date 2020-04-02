@@ -1,17 +1,16 @@
 # Data analysis project
 
-Our project is titled **PROJECT TITLE** and is about EXPLAIN.
+Our project is titled **PROJECT TITLE** and is about armed conflict around the world. 
 
-The **results** of the project can be seen from running [dataproject.ipynb](dataproject.ipynb).
+The **results** of the project can be seen from running **link til projekt**
 
-This **loades two datasets**:
+This **loades following datasets**:
 
-1. INDKP101.xlsx downloaded from statistikbanekn.dk/INDKP101
-1. RAS200.xlsx downloaded from statistikbanekn.dk/RAS200
+
+1. **Link til projekt**
+2. export_dataframe.csv 
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
-
-``pip install matplotlib-venn`` and 
 ``geopandas``
 This can be installed in Anaconda
 
