@@ -7,8 +7,8 @@ The **results** of the project can be seen from running **link til projekt**
 This **loades following datasets**:
 
 1. **Link til projekt**
-2. export_dataframe.csv which is a smaller version of "ged191.csv" with dropped variables from UCPD
-3. ne_110m_admin_0_countries.zip
+2. [export_dataframe.csv which](export_dataframe.csv which) is a smaller version of "ged191.csv" with dropped variables from UCPD
+3. [ne_110m_admin_0_countries.zip](ne_110m_admin_0_countries.zip)
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires the following installations:
 ``geopandas`` and ``seaborn``
