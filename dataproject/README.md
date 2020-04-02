@@ -7,7 +7,7 @@ The **results** of the project can be seen from running **link til projekt**
 This **loades following datasets**:
 
 1. **Link til projekt**
-2. [export_dataframe.csv which](export_dataframe.csv which) 
+2. [export_dataframe.csv](export_dataframe.csv) 
 is a smaller version of "ged191.csv" with dropped variables from 
 https://ucdp.uu.se/?fbclid=IwAR0586RVfBKd1n4Q7DlMVIRV4pDtJV8szoAGG7w62-Fm8QbVKPyTSqlJdM4#/
 3. [ne_110m_admin_0_countries.zip](ne_110m_admin_0_countries.zip)
@@ -17,7 +17,7 @@ https://ucdp.uu.se/?fbclid=IwAR0586RVfBKd1n4Q7DlMVIRV4pDtJV8szoAGG7w62-Fm8QbVKPy
 This can be installed in Anaconda
 
 **Data generation**
-Because of the very large dataset, we have chosen to drop some of the variables. This wasn’t enough, therefore we have decided only to use “2018” as our year of analysis, which is in our csv file [export_dataframe.csv which](export_dataframe.csv which) .
+Because of the very large dataset, we have chosen to drop some of the variables. This wasn’t enough, therefore we have decided only to use “2018” as our year of analysis, which is in our csv file [export_dataframe.csv](export_dataframe.csv) .
 Because of a lot of armed conflicts in Afghanistan, Afghanistan was split into 5 different coordinates, that we have summed up to 1.
 
 Furthermore we had a lot of armed conflicts in Afghanistan, and we have therefore choosen to remove “Afghanistan” from the bar chart. This gives us a better insight of the armed conflicts in the rest of the world.
