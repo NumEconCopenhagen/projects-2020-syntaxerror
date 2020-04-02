@@ -16,6 +16,9 @@ This **loades two datasets**:
 This can be installed in Anaconda
 
 **Data generation**
+Because of the very large dataset, we have chosen to drop some of the variables. This wasn’t enough, therefore we have decided only to use “2018” as our year of analysis. Because of a lot of armed conflicts in Afghanistan, Afghanistan was split into 5 different coordinates, that we have summed up to 1.
+
+Furthermore we had a lot of armed conflicts in Afghanistan, and we have therefore choosen to remove “Afghanistan” from the bar chart. This gives us a better insight of the armed conflicts in the rest of the world.
 
 **Data analysis**
 In this workbook we have analyzed the data generated in **link til projekt** by:
