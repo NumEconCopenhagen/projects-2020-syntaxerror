@@ -2,7 +2,7 @@
 
 Our project is titled **Armed conflicts dataproject** and is about armed conflict around the world. 
 
-The **results** of the project can be seen from running [Armed conflicts dataproject.ipynb](Armed conflicts dataproject.ipynb)
+The **results** of the project can be seen from running [Armed_conflicts_dataproject.ipynb](Armed_conflicts_dataproject.ipynb)
 
 This **loades following datasets**:
 
