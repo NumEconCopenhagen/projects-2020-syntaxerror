@@ -1,25 +1,41 @@
+import numpy as np
 from scipy import optimize
+#%matplotlib inline
+import matplotlib.pyplot as plt
 
-def solve_for_ss(s,g,n,alpha,delta):
-    """ solve for the steady state level of capital
 
+def keynesian_cross(T, I, G, C):
+    """ Draws the Keynesian cross with the 45-degree line and 
+    the planned total spending as a function of total production.
+    
     Args:
-        s (float): saving rate
-        g (float): technological growth rate
-        n (float): population growth rate
-        alpha (float): cobb-douglas parameter
-        delta (float): capital depreciation rate 
+        T (float): Taxs
+        a (float): Constant consumption, a>0
+        G (float): Public consumption
+        I (float): Investment
+        C (float): Consumption
+       
+    Return: Figure
+    """
+    # The data vector to be plotted for production and aggregate expenditure:
+    Y_arrey = np.linspace(0,300)
+    PE_arrey = (C * (Y_arrey - T) + I + G)
+    degree = Y_arrey
 
-    Returns:
-        result (RootResults): the solution represented as a RootResults object
+    # The figure
+    fig = plt.figure(figsize=(10,5))
+    ax = fig.add_subplot(1,1,1)
 
-    """ 
-    
-    # a. define objective function
-    f = lambda k: k**alpha
-    obj_kss = lambda kss: kss - (s*f(kss) + (1-delta)*kss)/((1+g)*(1+n))
+    ax.plot(Y_arrey, degree, label="45-degree line", color='lightblue',linewidth=3)
+    ax.plot(Y_arrey, AD_arrey, label="AD=C+I+G+NX", color='darkorange',linewidth=3)
 
-    #. b. call root finder
-    result = optimize.root_scalar(obj_kss,bracket=[0.1,100],method='bisect')
-    
-    return result
+    ax.set_xlabel("Y")
+    ax.set_ylabel("PE")
+    ax.legend(loc="upper left")
+
+    ax.grid()
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    return
