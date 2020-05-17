@@ -22,11 +22,6 @@ We chose to first group the armed conflicts in regions and then group the armed 
 
 Furthermore we had a lot of armed conflicts in Afghanistan, and we have therefore choosen to remove “Afghanistan” from the bar chart. This gives us a better insight of the armed conflicts in the rest of the world.
 
-**Data analysis**
-In this workbook we have analyzed the data generated in [Armed_conflicts_dataproject.ipynb](Armed_conflicts_dataproject.ipynb) by:
-- Making a barplot to analyze with continent where most armed conflicts occur 
-- Making a barplot to analyze whick countries have the most armed conflicts
-- Making a map to analyze the degree of armed conflicts
 
 
 
