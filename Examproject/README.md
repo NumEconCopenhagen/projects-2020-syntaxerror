@@ -8,7 +8,7 @@ Durable purchases: We found and plotted the different functions in the problem f
 
 Gradient descent: We implemented an algorithm to find the minimum of a function by using a loop.
 
-The **results** of the project can be seen from running [exam_2020.ipynb](exam_2020.ipynb).
+The **results** of the project can be seen from running [examproject_2020.ipynb](examproject_2020.ipynb).
 
 **Dependencies:** Apart from a standard Anaconda Python 3 installation, the project requires no further packages.
 
